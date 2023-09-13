@@ -1,0 +1,20 @@
+.contatos h1 {
+  margin-top: 4rem;
+}
+
+.contatos-conteudo {
+  margin-top: 4rem;
+  display: grid;
+  gap: 4rem;
+  justify-content: center;
+  justify-items: center;
+}
+
+.contatos-adicionar {
+  padding: 1.6rem;
+  border-radius: .4rem;
+}
+
+.contatos-adicionar h2 {
+  margin-bottom: 0.5rem;
+}

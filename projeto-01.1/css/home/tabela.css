@@ -1,0 +1,30 @@
+.contatos-lista h2{
+  margin-bottom: .5rem;
+}
+
+.lista {
+  padding: .5rem;
+  width: 50rem;
+  display: grid;
+  /* gap: 1.5rem; */
+  box-shadow: 0 .1rem .2rem var(--color-shadow);
+  border: .1rem solid var(--color-02);
+  border-radius: .4rem;
+}
+
+.lista tr {
+  padding-bottom: .5rem;
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 2fr);
+  justify-items: center;
+  align-items: center;
+  border-bottom: .1rem solid var(--color-03);
+}
+
+.lista tbody tr {
+  margin-top: 1.5rem;
+}
+
+.lista tbody tr:last-child {
+  border: none;
+}

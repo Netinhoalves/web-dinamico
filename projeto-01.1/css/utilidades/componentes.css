@@ -1,0 +1,33 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.botao {
+  display: inline-block;
+  padding: .8rem 1.6rem;
+  border-radius: .4rem;
+  background: var(--color-03);
+  box-shadow: 0 .1rem .2rem var(--color-shadow);
+  text-transform: uppercase;
+  line-height: 1.33;
+  font-family: 'Poppins';
+  font-weight: 600;
+  max-width: max-content;
+}
+
+.botao:hover {
+  background: var(--color-04);
+}
+
+.botao-secundario {
+  padding: .5rem 1rem;
+  background: var(--color-del);
+  color: var(--color-00);
+}
+
+.botao-secundario:hover {
+  background: var(--color-del-hover);
+}
