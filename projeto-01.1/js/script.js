@@ -41,7 +41,7 @@ function newRow(contact, index) {
   const line = document.createElement("tr");
 
   line.innerHTML = `  
-          <td>${index}</td>
+          <td>${index + 1}</td>
           <td>${contact.name}</td>
           <td>${contact.fone}</td>
           <td><button class="botao botao-secundario" onclick='removeContact(${index})'>Delete</button></td>        
